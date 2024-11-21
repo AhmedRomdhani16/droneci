@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: build
+    image: ubuntu:latest
+    commands:
+      - echo "Hello from Drone CI!"
